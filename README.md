@@ -42,7 +42,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - Where can I see your demo?
 - What was your experience?
+  I know all the basic stuff but i want ideas to built a custom 404-page so i tried devchallenge. I learn alot about media query in css and also how to make website responsive according to differnt screen size.
 - What have you learned/improved?
+  I have increased my knowleadge about media query,flex and responsiveness of website. My basic css skill also boosted. And I get the ideas for my future websites.
 - Your wisdom? :)
 
 ### Built With
