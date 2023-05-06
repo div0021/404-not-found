@@ -72,11 +72,19 @@ button{
         
     }
     body div{
-        width: 80%;
-        padding: 1rem 2rem;
+        width: 100%;
+        /* padding: 1rem 2rem; */
+        display: flex;
+        flex-direction: column;
+    }
+    body div > :nth-child(2){
+        justify-content: center;
+        align-items: center;
     }
     
     body > div > p{
+        margin-top: 2rem;
+        margin-left:3rem ;
         position: relative;
         font-size: 16px;
        
@@ -90,11 +98,13 @@ button{
         margin: 2.5rem auto;
     }
     .rest{
+        margin-left: 2.5rem;
         position: relative;
-        width: 90%;
+        width: 85%;
     }
     h1{
         font-size:28px;
+        width: 100%;
     }
     .rest > p {
         font-size: 16px;
@@ -113,23 +123,33 @@ button{
         
     }
     body div{
-        width: 80%;
+        width: 85%;
         padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+    body div > :nth-child(2){
+        justify-content: center;
+        align-items: center;
     }
     
     body > div > p{
         position: relative;
         font-size: 16px;
-       
+       margin-bottom: 2rem;
     }
+
     
     img{
+        display: inline;
         position: relative;
         width: 286px;
         height: 238px;
-        margin-top: 2.5rem;
+        margin: auto;
     }
     .rest{
+        margin-top: 1rem;
         position: relative;
         width: 90%;
     }
@@ -147,8 +167,12 @@ button{
     }
 }
 @media (800px < width < 1000px) {
+    body{
+        margin:2rem 3rem;
+    }
     body>div{
         height: 36vh;
+        width: 95%;
     }
     img{
         width: 350px;
