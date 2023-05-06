@@ -28,7 +28,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/div0021/404-not-found.github.io/blob/main/screenshot.png)
+![screenshot](https://github.com/div0021/404-not-found/blob/main/Screenshot.png)
 
 - Experience
 
@@ -55,6 +55,6 @@
 
 ## Contact
 
-- Website [404-not-found](https://div0021.github.io/404-not-found.github.io/)
+- Website [404-not-found](https://div0021.github.io/404-not-found/)
 - GitHub [div0021](https://{github.com/div0021})
 
