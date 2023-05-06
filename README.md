@@ -22,56 +22,39 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/div0021/404-not-found.github.io/blob/main/screenshot.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+- Experience
 
-- Where can I see your demo?
-- What was your experience?
   I know all the basic stuff but i want ideas to built a custom 404-page so i tried devchallenge. I learn alot about media query in css and also how to make website responsive according to differnt screen size.
-- What have you learned/improved?
-  I have increased my knowleadge about media query,flex and responsiveness of website. My basic css skill also boosted. And I get the ideas for my future websites.
-- Your wisdom? :)
+
+
+- Learned/improved
+
+  I have increased my knowleadge about media query,flex and responsiveness of website. My basic css skill also boosted. Due to this i start using figma for my website design. And I get the ideas for my future websites.
+
+- Wisdom? 
+  I get different perspecitve to design a website.
+
+:)
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
-
-## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+- [HTML]
+- [CSS]
 
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [404-not-found](https://div0021.github.io/404-not-found.github.io/)
+- GitHub [div0021](https://{github.com/div0021})
+

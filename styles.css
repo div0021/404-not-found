@@ -8,9 +8,8 @@
 }
 body{
     margin: 2rem 5rem;
-    
 }
-div{
+body > div{
     /* border:1px solid black; */
     height: 70vh;
     width: 95%;
@@ -39,7 +38,7 @@ img{
     bottom: 0;
     right: 0;
     width: 50%;
-    height: 70%;
+    height: 72%;
 }
 h1{
     font-size: 54px;
@@ -65,14 +64,22 @@ button{
     background-color: black;
     cursor: pointer;
 }
-@media (max-width:479px) {
+footer{
+    margin-top: 7rem;
+    color: gray;
+    text-align: center;
+    
+
+}
+@media (max-width:300px) {
     body{
         margin: 0;
-        
+        height: 110vh;
         
     }
     body div{
         width: 100%;
+        height: 85%;
         /* padding: 1rem 2rem; */
         display: flex;
         flex-direction: column;
@@ -84,7 +91,7 @@ button{
     
     body > div > p{
         margin-top: 2rem;
-        margin-left:3rem ;
+        margin-left:2.5rem ;
         position: relative;
         font-size: 16px;
        
@@ -94,11 +101,10 @@ button{
         position: relative;
         width: 286px;
         height: 238px;
-        margin-top: 2.5rem;
-        margin: 2.5rem auto;
+        margin: 2rem auto 1rem;
     }
     .rest{
-        margin-left: 2.5rem;
+        margin-left: 2rem;
         position: relative;
         width: 85%;
     }
@@ -109,18 +115,87 @@ button{
     .rest > p {
         font-size: 16px;
         width: 100%;
+        margin-bottom: 0;
     }
     button{
         width:10rem;
         height: 2.5rem;
-        font-size: 9px;
+        font-size: 10px;
+    }
+    footer{
+        
+        margin-top: 2rem;
+        color: gray;
+        text-align: center;
+        font-size: 12px;
+    
+    }
+}
+@media (301px < width < 479px) {
+    body{
+        margin: 0;
+        height: 110vh;
+        
+    }
+    body div{
+        width: 100%;
+        height: 80%;
+        /* padding: 1rem 2rem; */
+        display: flex;
+        flex-direction: column;
+    }
+    body div > :nth-child(2){
+        justify-content: center;
+        align-items: center;
+    }
+    
+    body > div > p{
+        margin-top: 2rem;
+        margin-left:2.5rem ;
+        position: relative;
+        font-size: 16px;
+       
+    }
+    
+    img{
+        position: relative;
+        width: 286px;
+        height: 238px;
+        margin: 2rem auto 1rem;
+    }
+    .rest{
+        margin-left: 2rem;
+        position: relative;
+        width: 85%;
+    }
+    h1{
+        font-size:28px;
+        width: 100%;
+    }
+    .rest > p {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    button{
+        width:10rem;
+        height: 2.5rem;
+        font-size: 10px;
+    }
+    footer{
+        position: relative;
+        margin-top: 1.5rem;
+        color: gray;
+        text-align: center;
+        font-size: 12px;
+    
     }
 }
 
 @media ( 480px < width<800px) {
     body{
         margin: 0;
-        
+        height: 100vh;
     }
     body div{
         width: 85%;
@@ -165,6 +240,13 @@ button{
         height: 2.5rem;
         font-size: 9px;
     }
+    footer{
+        margin-top: 1rem;
+        color: gray;
+        text-align: center;
+        
+    
+    }
 }
 @media (800px < width < 1000px) {
     body{
@@ -197,10 +279,15 @@ button{
         height: 2.8rem;
         font-size: 11px;
     }
+    footer{
+        font-size: 12px;
+        
+    
+    }
 }
 @media (1001px < width < 1200px) {
     body>div{
-        height: 80vh;
+        height: 70vh;
     }
     img{
         width: 380px;
@@ -212,7 +299,7 @@ button{
         font-size:32px;
     }
     .rest{
-        height: 70%;
+        height: 77%;
         right: -2.5rem;
     }
     .rest > p {
@@ -225,5 +312,11 @@ button{
         width:11rem;
         height: 2.8rem;
         font-size: 11px;
+    }
+    footer{
+        margin-top: 3rem;
+        
+        font-size: 12px;
+    
     }
 }
